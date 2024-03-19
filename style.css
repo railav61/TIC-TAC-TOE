@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.theme{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+body{
+    background-color: #ffbe0b;
+    text-align: center;
+    overflow-y: hidden;
+}
+h1{
+    text-shadow: 3px 3px 30px rgb(255, 255, 255);
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 30px;
+}
+.box{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+    font-size: 2.5em;
+    color: #ff4242;
+    background-color: #fffeb0;
+}
+.reset-btn{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: #191913;
+    color: #fff;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    top: 50px;
+}
+.newgame{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: #191913;
+    color: #fff;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    left: 615px;
+    top: 400px;
+}
+.msg{
+    position: relative;
+    height: 650px;
+    top: 300px;
+}
+.hide{
+    display: none;
+}
+.dark{
+    background-color: #272640;
+}
+.light{
+    background-color: #ffbe0b;
+}
